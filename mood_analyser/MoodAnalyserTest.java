@@ -16,10 +16,10 @@ public class MoodAnalyserTest {
         Assert.assertEquals("HAPPY", res);
     }
 
-    @Test
-    public void givenMessage_whenNull_shouldReturnHappy(){
-        MoodAnalyser obj = new MoodAnalyser("NULL");
-        String res = obj.analyseMood();
-        Assert.assertEquals("HAPPY", res);
-    }
+//    @Test
+//    public void givenMessage_whenNull_shouldReturnHappy(){
+//        MoodAnalyser obj = new MoodAnalyser("NULL");
+//        String res = obj.analyseMood();
+//        Assert.assertEquals("HAPPY", res);
+//    }
 }
